@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Germania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.secondary-font {
+    font-family: "Bilbo Swash Caps", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+}
+
+h1, h2, h3 {
+    font-family: "Germania One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;  
+    margin-bottom: 5px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+body {
+    font-family: "Metamorphous", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: #252428;
+    color: #B6B3B2;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url(bg.jpg) no-repeat center center;
+  background-size: cover;
+  opacity: 0.3;  /* control your opacity here */
+  z-index: -1;   /* behind body content */
+}
+
+.container {
+    position: relative;
+    max-width: 80vw;
+    margin: 12px auto;
+
+}
+
+form * {
+    margin-bottom: 2px;
+}
+
+form {
+    width: 500px;
+}
+
+.form-row label {
+    display: inline-block;
+    width: 120px;
+}
+
+.form-row input {
+    width: 360px;
+}
+
+nav {
+    background-color: #151516;
+    color: #DDBEA3;
+    padding: 12px 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav * {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+
+table, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+/* td, th {
+    border: 2px solid black;
+    padding: 5px 13px;
+} */
+
+.cell-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    padding: 0px 10px;
+}
+
+.btn {
+    padding: 5px;
+    margin: 15px 0;
+    border: 5px solid #18181A;
+    border-radius: 10px;
+    background-color: #18181A;
+    color: #7E7362;
+    box-shadow: 0 3px black;
+    cursor: pointer;
+}
+
+.btn:active {
+    box-shadow: 0 1px black;
+    transform: translateY(3px); 
+}
+
+.btnsm {
+    padding: 1px;
+    border: 5px solid #18181A;
+    border-radius: 10px;
+    background-color: #18181A;
+    color: #7E7362;
+    box-shadow: 0 3px black;
+    cursor: pointer;
+}
+
+.btnsm:active {
+    box-shadow: 0 1px black;
+    transform: translateY(3px); 
+}
+
+.copy {
+    margin: 0;
+    padding: 0;
+    height: 25px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+
+.alert {
+    display: none;
+}
