@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
 
 
-
 * {
     margin: 0;
     padding: 0;
@@ -94,25 +93,25 @@ ul li {
     margin: 0 23px;
 }
 
-
 table, td, th {
     border: 2px solid black;
     border-collapse: collapse;
     padding: 10px;
 }
 
-/* td, th {
-    border: 2px solid black;
-    padding: 5px 13px;
-} */
+a {
+    text-decoration: none;
+    color: #DDBEA3;
+}
+
+a:visited {
+    color: #DDBEA3;
+}
 
 .cell-flex {
     display: flex;
     justify-content: space-between;
 }
-
-
-
 
 .logo img {
     width: 100px;
@@ -158,7 +157,6 @@ table, td, th {
     vertical-align: middle;
     margin-left: 10px;
 }
-
 
 .alert {
     display: none;

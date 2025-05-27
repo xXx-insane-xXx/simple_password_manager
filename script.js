@@ -37,6 +37,7 @@ document.querySelector(".btn").addEventListener("click", (e) => {
 
 })
 
+
 function createBaseTable(tb) {
     tb.innerHTML =  `
         <tr>
@@ -107,8 +108,6 @@ function updateTable(tb) {
                         </div>
                     </td>
 
-
-
                     <td>
                         <button class="btnsm" id=${element.id} onclick="deletePassword(${element.id})">Delete</button>
                     </td>
@@ -141,6 +140,7 @@ function deletePassword(id) {
     createBaseTable(tb);
     updateTable(tb);
 }
+
 
 function copyText(txt) {
     navigator.clipboard.writeText(txt)
