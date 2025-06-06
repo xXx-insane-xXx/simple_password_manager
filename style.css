@@ -161,3 +161,8 @@ a:visited {
 .alert {
     display: none;
 }
+
+.warning-text {
+    color: red;
+    font: 14px;
+}
